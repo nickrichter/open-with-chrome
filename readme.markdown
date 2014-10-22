@@ -10,6 +10,10 @@ Setup
 
 Open Automator and create a new service. This does not require any input so set that to "no input" in "Safari".
 
-Grab a "Run AppleScript" block and paste this in.
+Grab a "Run AppleScript" block and paste in the included AppleScript snippet.
 
 Save and off you go.
+
+### Creating a keyboard shortcut
+
+To create a keyboard shortcut, open System Preferences and go to Keyboard and select the Shortcuts tab. Select Services from the list on the left and find the service you just saved in the list on the right (It is likely that it will be in the General section at the bottom), and click Add Shortcut.
