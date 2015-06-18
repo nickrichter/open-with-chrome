@@ -18,10 +18,6 @@ tell application "Google Chrome"
 		end tell
 	end try
 	
-	--tell window 1
-	-- Create a new tab and set the URL to the one we got from Safari
-	--set newTab to make new tab with properties {URL:theURL}
-	--end tell
 	-- If you want the link to open in the background, comment out the following activate command
 	activate
 end tell
