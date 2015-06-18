@@ -8,9 +8,13 @@ When possible, I prefer not to install Flash player on my computer. Every now an
 Setup
 -----
 
-Open Automator and create a new service. This does not require any input so set that to "no input" in "Safari".
+I have included the .workflow file in this repository, so all you should need to do is copy Open with Chrome.workflow to ~/Library/Services.
 
-Grab a "Run AppleScript" block and paste in the included AppleScript snippet.
+Alternatively, if you would like to do things manually, follow these instructions:
+
+Open Automator and create a new service. This does not require any input, so set that to "no input" in "Safari".
+
+Grab a "Run AppleScript" block and paste in the included AppleScript snippet found in source/open with Chrome.text.
 
 Save and off you go.
 
