@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Open-with-chrome by nickrichter</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Open-with-chrome</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/nickrichter/open-with-chrome">View the Project on GitHub <small>nickrichter/open-with-chrome</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/nickrichter/open-with-chrome/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/nickrichter/open-with-chrome/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/nickrichter/open-with-chrome">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="open-with-chrome" class="anchor" href="#open-with-chrome" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Open with Chrome</h1>
+
+<p>This is a service for Mac OS X to quickly open your current Safari tab in Google Chrome.</p>
+
+<p>When possible, I prefer not to install Flash player on my computer. Every now and then, something will be missing because of that. Fortunately Chrome comes with a version of Flash player baked in, so I use that as a fallback when needed.</p>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+
+<p>I have included the .workflow file in this repository, so all you should need to do is copy Open with Chrome.workflow to ~/Library/Services.</p>
+
+<p>Alternatively, if you would like to do things manually, follow these instructions:</p>
+
+<p>Open Automator and create a new service. This does not require any input, so set that to "no input" in "Safari".</p>
+
+<p>Grab a "Run AppleScript" block and paste in the included AppleScript snippet found in source/open with Chrome.text.</p>
+
+<p>Save and off you go.</p>
+
+<h3>
+<a id="creating-a-keyboard-shortcut" class="anchor" href="#creating-a-keyboard-shortcut" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating a keyboard shortcut</h3>
+
+<p>To create a keyboard shortcut, open System Preferences and go to Keyboard and select the Shortcuts tab. Select Services from the list on the left and find the service you just saved in the list on the right (It is likely that it will be in the General section at the bottom), and click Add Shortcut.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/nickrichter">nickrichter</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
